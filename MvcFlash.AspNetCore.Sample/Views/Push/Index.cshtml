@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "title";
+}
+
+<h2>Create Pop Messages</h2>
+
+@using (Html.BeginRouteForm(new {@controller = "push", action = "create"}))
+{
+    <input type="submit" value="submit" />
+}
